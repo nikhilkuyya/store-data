@@ -2,16 +2,21 @@
   "name": "read",
   "packageManager": "yarn@3.6.4",
   "scripts": {
-    "node:dev": "yarn ts-node index.ts",
+    "node:dev": "yarn ts-node node.ts",
     "start": "yarn vite",
     "start:host": "yarn vite --host"
   },
   "dependencies": {
+    "browser-level": "^1.0.1",
     "csvtojson": "^2.0.10",
-    "level": "^8.0.0",
+    "level": "^7.0.0",
+    "level-indexed": "^1.0.2",
+    "level-js": "^6.1.0",
+    "levelup": "^5.1.1",
     "to2": "^1.0.0"
   },
   "devDependencies": {
+    "@types/node": "^20.8.10",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "vite": "^4.5.0"
