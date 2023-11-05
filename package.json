@@ -1,0 +1,23 @@
+{
+  "name": "read",
+  "packageManager": "yarn@3.6.4",
+  "scripts": {
+    "node:dev": "yarn ts-node index.ts",
+    "start": "yarn vite",
+    "start:host": "yarn vite --host"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "level": "^8.0.0",
+    "to2": "^1.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  },
+  "volta": {
+    "node": "18.18.2",
+    "yarn": "3.6.4"
+  }
+}
